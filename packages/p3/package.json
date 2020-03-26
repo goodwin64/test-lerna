@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@namespace/p1": "^0.1.0",
     "@namespace/p2": "^0.1.0"
   }
 }
