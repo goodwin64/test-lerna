@@ -1,6 +1,6 @@
 {
-  "name": "p2",
-  "version": "1.0.0",
+  "name": "@namespace/p2",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "p1": "1.0.0"
+    "@namespace/p1": "1.0.0"
   }
 }

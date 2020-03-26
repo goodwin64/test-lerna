@@ -1,4 +1,9 @@
-const plus1 = require('p1').plus1;
+const plus1 = require('@namespace/p1').plus1;
 
-const result = plus1(5);
-console.log('result:', result);
+function plus2(x) {
+  return plus1(plus1(x));
+}
+
+module.exports = {
+  plus2,
+};
